@@ -1,6 +1,6 @@
 class Solution {
     public int solution(int a, int b, int n) {
-        int answer = n / a;
+        int answer = (n / a) * b;
             int remain = n % a;
             int s = (n / a) * b;
 
