@@ -9,7 +9,7 @@ class Solution {
 
             long[] answer = new long[s];
             for (int i = 0; i < answer.length; i++) {
-                answer[i] = (long) (i + 1) * x;
+                answer[i] = (i + 1) * x;
             }
             return answer;
         }
