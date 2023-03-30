@@ -1,7 +1,7 @@
 class Solution {
     public int solution(String t, String p) {
         int answer = 0;
-            long a = p.length();
+            int a = p.length();
             for (int i = 0; i <= t.length()-a; i++) {
                 String str = "";
                 for (int j = 0; j < p.length(); j++) {
